@@ -55,6 +55,7 @@ podman run -p 8080:8080 desafio-clima-cep
 **Requisição:**
 ```bash
 curl -i http://localhost:8080/cep/01153000
+curl -i https://desafio-clima-cep-1002536084691.us-east1.run.app/cep/01153000
 ```
 
 **Resposta:**
@@ -70,6 +71,7 @@ curl -i http://localhost:8080/cep/01153000
 **Requisição:**
 ```bash
 curl -i http://localhost:8080/cep/12345
+curl -i https://desafio-clima-cep-1002536084691.us-east1.run.app/cep/12345
 ```
 
 **Resposta:**
@@ -83,6 +85,7 @@ curl -i http://localhost:8080/cep/12345
 **Requisição:**
 ```bash
 curl -i http://localhost:8080/cep/99999999
+curl -i https://desafio-clima-cep-1002536084691.us-east1.run.app/cep/99999999
 ```
 
 **Resposta:**
