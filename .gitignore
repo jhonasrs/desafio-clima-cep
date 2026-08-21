@@ -7,6 +7,7 @@
 *.dll
 *.so
 *.dylib
+AGENT.md
 
 # Test binary, built with `go test -c`
 *.test
@@ -32,4 +33,4 @@ go.work.sum
 # .vscode/
 context.md
 plans/
-server
+/server
